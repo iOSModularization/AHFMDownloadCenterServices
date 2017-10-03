@@ -1,0 +1,929 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032E3611F2551D75AF4A81004054F7C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CECA79144A6FB3DE458C9692874B88 /* Foundation.framework */; };
+		11555B4F2E4B77AD3C0DA6C314B2AAFE /* AHFMServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB4E1C444C48E55029C94EC2FB9E8E5 /* AHFMServices.swift */; };
+		264A18DEA779B6CB51E18F37232925F8 /* AHFMServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C84025C29E8260663183FF796D8FA5C3 /* AHFMServices.framework */; };
+		3AF480C65F8C1543086A1B2BAA1A2DBE /* Pods-AHFMDownloadCenterServices_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86BA8C86832E2BDFD3439F421136F83C /* Pods-AHFMDownloadCenterServices_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		460A9B82526B0E606E1D79A075F26A37 /* AHFMServices-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EAFE06990CE672778C7D1025560FC3E /* AHFMServices-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56BF710147A018D53A5FF7DF2D1CD6BD /* Pods-AHFMDownloadCenterServices_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1DFB1EBCC9C0E5057EF14D3E3DB333 /* Pods-AHFMDownloadCenterServices_Tests-dummy.m */; };
+		570B8FF37AE6F48C59A1EE3E3F2898B0 /* Pods-AHFMDownloadCenterServices_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C36AE73EA464A6812A2DBB7BB25232C4 /* Pods-AHFMDownloadCenterServices_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58D06641610F7D81F87C9268F158A10A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CECA79144A6FB3DE458C9692874B88 /* Foundation.framework */; };
+		6CFE2183CF2014261F102E52FAC2AB14 /* AHFMDownloadCenterServices-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 814FB2E94B2869AE11447F69ACF7CDEF /* AHFMDownloadCenterServices-dummy.m */; };
+		7CA2F555BEA29868178B8C55A4F6F6B0 /* AHFMServices-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE46CEAE59120241EE9828A675A1253 /* AHFMServices-dummy.m */; };
+		C2E5E75A1885D76B6C49CA925B2D2252 /* AHFMDownloadCenterServices-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A93FF6A8C2E5FFB298FCA23C7A1C82E4 /* AHFMDownloadCenterServices-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C56855CBFEBCA07B434DB3722D14FA13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CECA79144A6FB3DE458C9692874B88 /* Foundation.framework */; };
+		CA9FF3BF36839DCE1ACF5CB49291E060 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CECA79144A6FB3DE458C9692874B88 /* Foundation.framework */; };
+		D92498DF91F4354AC432607240D593A0 /* Pods-AHFMDownloadCenterServices_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3A6B1508DF6079180CEDD8E9D20627 /* Pods-AHFMDownloadCenterServices_Example-dummy.m */; };
+		F84BF5D2D111943CF5CB3C7D7FA57DB9 /* AHFMDownloadCenterServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B51E5F59121ED4F86D1CA2E0FB30B6E /* AHFMDownloadCenterServices.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A54105ECB9A92564AD0FEA2C86E5C78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BEFE67F2AFB4E63B16DACA16FBC1FC1;
+			remoteInfo = AHFMDownloadCenterServices;
+		};
+		C0366754108CCB302A88CD3F7E58521D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76A804F010439A4A7F7140613D7DDF2D;
+			remoteInfo = AHFMServices;
+		};
+		CEDDB1034FADA42D9010A0620863D290 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76A804F010439A4A7F7140613D7DDF2D;
+			remoteInfo = AHFMServices;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0126481EAF363F96E3728689424CED95 /* Pods-AHFMDownloadCenterServices_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AHFMDownloadCenterServices_Tests.modulemap"; sourceTree = "<group>"; };
+		07DF46D30F424F569255B2D1703D1032 /* Pods-AHFMDownloadCenterServices_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHFMDownloadCenterServices_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0F7F8704768EACF51FAF546C912C0561 /* AHFMDownloadCenterServices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AHFMDownloadCenterServices.framework; path = AHFMDownloadCenterServices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15F9A87851263F9890517FF945A65F4E /* Pods-AHFMDownloadCenterServices_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHFMDownloadCenterServices_Tests-resources.sh"; sourceTree = "<group>"; };
+		198CBB4598A41536DDF370456D84F2D5 /* AHFMServices-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHFMServices-prefix.pch"; sourceTree = "<group>"; };
+		1B5F03CDBE26F4AE487E5AFAB5547ECD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2863E84392C98B23DDB667EE6C211910 /* Pods-AHFMDownloadCenterServices_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHFMDownloadCenterServices_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2B51E5F59121ED4F86D1CA2E0FB30B6E /* AHFMDownloadCenterServices.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHFMDownloadCenterServices.swift; sourceTree = "<group>"; };
+		2BB4E1C444C48E55029C94EC2FB9E8E5 /* AHFMServices.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AHFMServices.swift; path = AHFMServices/Classes/AHFMServices.swift; sourceTree = "<group>"; };
+		374BEF9CBEF0C2E4316714B6229E4419 /* Pods-AHFMDownloadCenterServices_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHFMDownloadCenterServices_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D1DFB1EBCC9C0E5057EF14D3E3DB333 /* Pods-AHFMDownloadCenterServices_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AHFMDownloadCenterServices_Tests-dummy.m"; sourceTree = "<group>"; };
+		3E227C45F8BE216A0523DC4F559DB7C3 /* Pods-AHFMDownloadCenterServices_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AHFMDownloadCenterServices_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3EAFE06990CE672778C7D1025560FC3E /* AHFMServices-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHFMServices-umbrella.h"; sourceTree = "<group>"; };
+		61832D38001788394C574CE0247EEB69 /* Pods-AHFMDownloadCenterServices_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHFMDownloadCenterServices_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		681AA9C62C3C8E5728A6EE583A94F8EA /* Pods-AHFMDownloadCenterServices_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHFMDownloadCenterServices_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7C7CD1A1B575CAF5CFC2A420DBBBCA3B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C840788DAEB9C3E1BDD26257E6ADDA9 /* AHFMServices.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AHFMServices.xcconfig; sourceTree = "<group>"; };
+		7F89042B800076DA6D0A4A8FBA0948D1 /* Pods-AHFMDownloadCenterServices_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHFMDownloadCenterServices_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		807CCE7CA2AF760B394DAB0B87F0B096 /* Pods-AHFMDownloadCenterServices_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHFMDownloadCenterServices_Example-resources.sh"; sourceTree = "<group>"; };
+		814FB2E94B2869AE11447F69ACF7CDEF /* AHFMDownloadCenterServices-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AHFMDownloadCenterServices-dummy.m"; sourceTree = "<group>"; };
+		86BA8C86832E2BDFD3439F421136F83C /* Pods-AHFMDownloadCenterServices_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AHFMDownloadCenterServices_Example-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AADFEC7AF265F1BDB1564DAD0542237 /* AHFMServices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AHFMServices.framework; path = AHFMServices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93FF6A8C2E5FFB298FCA23C7A1C82E4 /* AHFMDownloadCenterServices-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHFMDownloadCenterServices-umbrella.h"; sourceTree = "<group>"; };
+		AD6AA49BC8CFD6E8B587B2989666F950 /* AHFMServices.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AHFMServices.modulemap; sourceTree = "<group>"; };
+		AF3A6B1508DF6079180CEDD8E9D20627 /* Pods-AHFMDownloadCenterServices_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AHFMDownloadCenterServices_Example-dummy.m"; sourceTree = "<group>"; };
+		AF96433D587EBC9B0F7642A721B26E22 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B79D0E4B59539EAEA7B11E54441C2C8A /* Pods-AHFMDownloadCenterServices_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AHFMDownloadCenterServices_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BD5F3EA8BDBD0EE277692DA43C0C25CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36AE73EA464A6812A2DBB7BB25232C4 /* Pods-AHFMDownloadCenterServices_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AHFMDownloadCenterServices_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C84025C29E8260663183FF796D8FA5C3 /* AHFMServices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AHFMServices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D123A2B2A27D2CDDD9D8D4B0368F2D51 /* AHFMDownloadCenterServices-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHFMDownloadCenterServices-prefix.pch"; sourceTree = "<group>"; };
+		D8CB3C5B15F6217411BB402FEC7D546A /* Pods-AHFMDownloadCenterServices_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AHFMDownloadCenterServices_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EAEAC41CE535FAB9111B3DE64794578E /* AHFMDownloadCenterServices.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AHFMDownloadCenterServices.xcconfig; sourceTree = "<group>"; };
+		ECE46CEAE59120241EE9828A675A1253 /* AHFMServices-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AHFMServices-dummy.m"; sourceTree = "<group>"; };
+		F1C2BD836D572FABA84E70403A353083 /* Pods_AHFMDownloadCenterServices_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AHFMDownloadCenterServices_Example.framework; path = "Pods-AHFMDownloadCenterServices_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E48BD3EDB93EED57ECC3DEBD26DAAD /* Pods-AHFMDownloadCenterServices_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AHFMDownloadCenterServices_Example.modulemap"; sourceTree = "<group>"; };
+		F36D59D633B3794EA2424CF0E2CF3258 /* Pods_AHFMDownloadCenterServices_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AHFMDownloadCenterServices_Tests.framework; path = "Pods-AHFMDownloadCenterServices_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51EBC8715C2BC40E09F265320637BDD /* Pods-AHFMDownloadCenterServices_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AHFMDownloadCenterServices_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F8CECA79144A6FB3DE458C9692874B88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FA963CC00185EBE8C31DE51941840E47 /* AHFMDownloadCenterServices.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AHFMDownloadCenterServices.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07C882C43E4433CAF8D33892C51D39C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9FF3BF36839DCE1ACF5CB49291E060 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D216B07B9A2E9E5B575A75FA2543035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56855CBFEBCA07B434DB3722D14FA13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA18CB5255D54DCA5F18B22B74EDB2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264A18DEA779B6CB51E18F37232925F8 /* AHFMServices.framework in Frameworks */,
+				032E3611F2551D75AF4A81004054F7C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F791F46411CC2FB06C26EB92A0D7BF1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D06641610F7D81F87C9268F158A10A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		220E2DF8E2388C3FD789F363B53A272B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C84025C29E8260663183FF796D8FA5C3 /* AHFMServices.framework */,
+				74A9C55FB6BE66516E77DD270F3D8FF4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		650FF65A40090C06C2DC5705DC8E5594 /* AHFMDownloadCenterServices */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A556E4EC0E4CE10E35AA0F90BFAFD /* Classes */,
+			);
+			name = AHFMDownloadCenterServices;
+			path = AHFMDownloadCenterServices;
+			sourceTree = "<group>";
+		};
+		70D45888CB7AD96ACFE17D10985BD41B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0E380434E2166D9F63E0C42433DE297 /* AHFMDownloadCenterServices */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		74A9C55FB6BE66516E77DD270F3D8FF4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F8CECA79144A6FB3DE458C9692874B88 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				70D45888CB7AD96ACFE17D10985BD41B /* Development Pods */,
+				220E2DF8E2388C3FD789F363B53A272B /* Frameworks */,
+				9653B5CE7E3C73A86AF5B6FF17E14CC5 /* Pods */,
+				DCAAA83BCCDE1BE153600DBE90C515C0 /* Products */,
+				A5FA1782F4C96E0DC8862DBDA70F31E3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		92144AC6A738F1242411DFEC9C898313 /* Pods-AHFMDownloadCenterServices_Example */ = {
+			isa = PBXGroup;
+			children = (
+				AF96433D587EBC9B0F7642A721B26E22 /* Info.plist */,
+				F2E48BD3EDB93EED57ECC3DEBD26DAAD /* Pods-AHFMDownloadCenterServices_Example.modulemap */,
+				F51EBC8715C2BC40E09F265320637BDD /* Pods-AHFMDownloadCenterServices_Example-acknowledgements.markdown */,
+				B79D0E4B59539EAEA7B11E54441C2C8A /* Pods-AHFMDownloadCenterServices_Example-acknowledgements.plist */,
+				AF3A6B1508DF6079180CEDD8E9D20627 /* Pods-AHFMDownloadCenterServices_Example-dummy.m */,
+				681AA9C62C3C8E5728A6EE583A94F8EA /* Pods-AHFMDownloadCenterServices_Example-frameworks.sh */,
+				807CCE7CA2AF760B394DAB0B87F0B096 /* Pods-AHFMDownloadCenterServices_Example-resources.sh */,
+				86BA8C86832E2BDFD3439F421136F83C /* Pods-AHFMDownloadCenterServices_Example-umbrella.h */,
+				7F89042B800076DA6D0A4A8FBA0948D1 /* Pods-AHFMDownloadCenterServices_Example.debug.xcconfig */,
+				07DF46D30F424F569255B2D1703D1032 /* Pods-AHFMDownloadCenterServices_Example.release.xcconfig */,
+			);
+			name = "Pods-AHFMDownloadCenterServices_Example";
+			path = "Target Support Files/Pods-AHFMDownloadCenterServices_Example";
+			sourceTree = "<group>";
+		};
+		9653B5CE7E3C73A86AF5B6FF17E14CC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC3AACDB03B28DF0CA632698CBD51E66 /* AHFMServices */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5FA1782F4C96E0DC8862DBDA70F31E3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92144AC6A738F1242411DFEC9C898313 /* Pods-AHFMDownloadCenterServices_Example */,
+				BB2E8FF67D682F1D972378F087078EEA /* Pods-AHFMDownloadCenterServices_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B6EFFB0602E4063D5BA07C852A9D0F0F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA963CC00185EBE8C31DE51941840E47 /* AHFMDownloadCenterServices.modulemap */,
+				EAEAC41CE535FAB9111B3DE64794578E /* AHFMDownloadCenterServices.xcconfig */,
+				814FB2E94B2869AE11447F69ACF7CDEF /* AHFMDownloadCenterServices-dummy.m */,
+				D123A2B2A27D2CDDD9D8D4B0368F2D51 /* AHFMDownloadCenterServices-prefix.pch */,
+				A93FF6A8C2E5FFB298FCA23C7A1C82E4 /* AHFMDownloadCenterServices-umbrella.h */,
+				1B5F03CDBE26F4AE487E5AFAB5547ECD /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AHFMDownloadCenterServices";
+			sourceTree = "<group>";
+		};
+		BB2E8FF67D682F1D972378F087078EEA /* Pods-AHFMDownloadCenterServices_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7C7CD1A1B575CAF5CFC2A420DBBBCA3B /* Info.plist */,
+				0126481EAF363F96E3728689424CED95 /* Pods-AHFMDownloadCenterServices_Tests.modulemap */,
+				3E227C45F8BE216A0523DC4F559DB7C3 /* Pods-AHFMDownloadCenterServices_Tests-acknowledgements.markdown */,
+				D8CB3C5B15F6217411BB402FEC7D546A /* Pods-AHFMDownloadCenterServices_Tests-acknowledgements.plist */,
+				3D1DFB1EBCC9C0E5057EF14D3E3DB333 /* Pods-AHFMDownloadCenterServices_Tests-dummy.m */,
+				2863E84392C98B23DDB667EE6C211910 /* Pods-AHFMDownloadCenterServices_Tests-frameworks.sh */,
+				15F9A87851263F9890517FF945A65F4E /* Pods-AHFMDownloadCenterServices_Tests-resources.sh */,
+				C36AE73EA464A6812A2DBB7BB25232C4 /* Pods-AHFMDownloadCenterServices_Tests-umbrella.h */,
+				374BEF9CBEF0C2E4316714B6229E4419 /* Pods-AHFMDownloadCenterServices_Tests.debug.xcconfig */,
+				61832D38001788394C574CE0247EEB69 /* Pods-AHFMDownloadCenterServices_Tests.release.xcconfig */,
+			);
+			name = "Pods-AHFMDownloadCenterServices_Tests";
+			path = "Target Support Files/Pods-AHFMDownloadCenterServices_Tests";
+			sourceTree = "<group>";
+		};
+		CE6A556E4EC0E4CE10E35AA0F90BFAFD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2B51E5F59121ED4F86D1CA2E0FB30B6E /* AHFMDownloadCenterServices.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D0E380434E2166D9F63E0C42433DE297 /* AHFMDownloadCenterServices */ = {
+			isa = PBXGroup;
+			children = (
+				650FF65A40090C06C2DC5705DC8E5594 /* AHFMDownloadCenterServices */,
+				B6EFFB0602E4063D5BA07C852A9D0F0F /* Support Files */,
+			);
+			name = AHFMDownloadCenterServices;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D207F80C04A5A2BC03D01DDDB9214F54 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD6AA49BC8CFD6E8B587B2989666F950 /* AHFMServices.modulemap */,
+				7C840788DAEB9C3E1BDD26257E6ADDA9 /* AHFMServices.xcconfig */,
+				ECE46CEAE59120241EE9828A675A1253 /* AHFMServices-dummy.m */,
+				198CBB4598A41536DDF370456D84F2D5 /* AHFMServices-prefix.pch */,
+				3EAFE06990CE672778C7D1025560FC3E /* AHFMServices-umbrella.h */,
+				BD5F3EA8BDBD0EE277692DA43C0C25CC /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AHFMServices";
+			sourceTree = "<group>";
+		};
+		DC3AACDB03B28DF0CA632698CBD51E66 /* AHFMServices */ = {
+			isa = PBXGroup;
+			children = (
+				2BB4E1C444C48E55029C94EC2FB9E8E5 /* AHFMServices.swift */,
+				D207F80C04A5A2BC03D01DDDB9214F54 /* Support Files */,
+			);
+			name = AHFMServices;
+			path = AHFMServices;
+			sourceTree = "<group>";
+		};
+		DCAAA83BCCDE1BE153600DBE90C515C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F7F8704768EACF51FAF546C912C0561 /* AHFMDownloadCenterServices.framework */,
+				9AADFEC7AF265F1BDB1564DAD0542237 /* AHFMServices.framework */,
+				F1C2BD836D572FABA84E70403A353083 /* Pods_AHFMDownloadCenterServices_Example.framework */,
+				F36D59D633B3794EA2424CF0E2CF3258 /* Pods_AHFMDownloadCenterServices_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07EC873184E77B5961FA90D263AD188A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF480C65F8C1543086A1B2BAA1A2DBE /* Pods-AHFMDownloadCenterServices_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5152D6B748241077642B069DCEF46BFA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570B8FF37AE6F48C59A1EE3E3F2898B0 /* Pods-AHFMDownloadCenterServices_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D3846579CD1D8DB2FAF8EF386F9BD1D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E5E75A1885D76B6C49CA925B2D2252 /* AHFMDownloadCenterServices-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45DC7848F1ED7C4E3959A713935E8B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460A9B82526B0E606E1D79A075F26A37 /* AHFMServices-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0AF6255575BBBF17B3FCB23AA6F17F6F /* Pods-AHFMDownloadCenterServices_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A377AB3BCC1AEF60D8B33A0A43523A6E /* Build configuration list for PBXNativeTarget "Pods-AHFMDownloadCenterServices_Example" */;
+			buildPhases = (
+				F61B17839B7BBD5E5E7DB06F66D18606 /* Sources */,
+				F791F46411CC2FB06C26EB92A0D7BF1B /* Frameworks */,
+				07EC873184E77B5961FA90D263AD188A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A788D3672AE2FA48B309C5185D575DF5 /* PBXTargetDependency */,
+				45124B57E719472FE42ABB9E9851FC35 /* PBXTargetDependency */,
+			);
+			name = "Pods-AHFMDownloadCenterServices_Example";
+			productName = "Pods-AHFMDownloadCenterServices_Example";
+			productReference = F1C2BD836D572FABA84E70403A353083 /* Pods_AHFMDownloadCenterServices_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6C62C1F77C8BDB83C6DAE5A6C2ECC589 /* Pods-AHFMDownloadCenterServices_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67C28E3C65CB46A470CB9F1C2CF0A658 /* Build configuration list for PBXNativeTarget "Pods-AHFMDownloadCenterServices_Tests" */;
+			buildPhases = (
+				846E0D14B1F572B5B6B92AFC74B25057 /* Sources */,
+				07C882C43E4433CAF8D33892C51D39C7 /* Frameworks */,
+				5152D6B748241077642B069DCEF46BFA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AHFMDownloadCenterServices_Tests";
+			productName = "Pods-AHFMDownloadCenterServices_Tests";
+			productReference = F36D59D633B3794EA2424CF0E2CF3258 /* Pods_AHFMDownloadCenterServices_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		76A804F010439A4A7F7140613D7DDF2D /* AHFMServices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB1DE233F633C51941E423E02CF0131 /* Build configuration list for PBXNativeTarget "AHFMServices" */;
+			buildPhases = (
+				7B2039C6C330863B4674B2D99CE56416 /* Sources */,
+				0D216B07B9A2E9E5B575A75FA2543035 /* Frameworks */,
+				A45DC7848F1ED7C4E3959A713935E8B4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AHFMServices;
+			productName = AHFMServices;
+			productReference = 9AADFEC7AF265F1BDB1564DAD0542237 /* AHFMServices.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8BEFE67F2AFB4E63B16DACA16FBC1FC1 /* AHFMDownloadCenterServices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5419EE4F5183C1EFB62850B040ABB234 /* Build configuration list for PBXNativeTarget "AHFMDownloadCenterServices" */;
+			buildPhases = (
+				D36806965E4546D94EA51816931A63CC /* Sources */,
+				CBA18CB5255D54DCA5F18B22B74EDB2E /* Frameworks */,
+				8D3846579CD1D8DB2FAF8EF386F9BD1D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E448DFFFDC1954540D8F2B2DC460AE88 /* PBXTargetDependency */,
+			);
+			name = AHFMDownloadCenterServices;
+			productName = AHFMDownloadCenterServices;
+			productReference = 0F7F8704768EACF51FAF546C912C0561 /* AHFMDownloadCenterServices.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DCAAA83BCCDE1BE153600DBE90C515C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BEFE67F2AFB4E63B16DACA16FBC1FC1 /* AHFMDownloadCenterServices */,
+				76A804F010439A4A7F7140613D7DDF2D /* AHFMServices */,
+				0AF6255575BBBF17B3FCB23AA6F17F6F /* Pods-AHFMDownloadCenterServices_Example */,
+				6C62C1F77C8BDB83C6DAE5A6C2ECC589 /* Pods-AHFMDownloadCenterServices_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B2039C6C330863B4674B2D99CE56416 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA2F555BEA29868178B8C55A4F6F6B0 /* AHFMServices-dummy.m in Sources */,
+				11555B4F2E4B77AD3C0DA6C314B2AAFE /* AHFMServices.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846E0D14B1F572B5B6B92AFC74B25057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56BF710147A018D53A5FF7DF2D1CD6BD /* Pods-AHFMDownloadCenterServices_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36806965E4546D94EA51816931A63CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CFE2183CF2014261F102E52FAC2AB14 /* AHFMDownloadCenterServices-dummy.m in Sources */,
+				F84BF5D2D111943CF5CB3C7D7FA57DB9 /* AHFMDownloadCenterServices.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61B17839B7BBD5E5E7DB06F66D18606 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92498DF91F4354AC432607240D593A0 /* Pods-AHFMDownloadCenterServices_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45124B57E719472FE42ABB9E9851FC35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AHFMServices;
+			target = 76A804F010439A4A7F7140613D7DDF2D /* AHFMServices */;
+			targetProxy = C0366754108CCB302A88CD3F7E58521D /* PBXContainerItemProxy */;
+		};
+		A788D3672AE2FA48B309C5185D575DF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AHFMDownloadCenterServices;
+			target = 8BEFE67F2AFB4E63B16DACA16FBC1FC1 /* AHFMDownloadCenterServices */;
+			targetProxy = 3A54105ECB9A92564AD0FEA2C86E5C78 /* PBXContainerItemProxy */;
+		};
+		E448DFFFDC1954540D8F2B2DC460AE88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AHFMServices;
+			target = 76A804F010439A4A7F7140613D7DDF2D /* AHFMServices */;
+			targetProxy = CEDDB1034FADA42D9010A0620863D290 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00B0693F4C937CBC44549D68BCAA91CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 374BEF9CBEF0C2E4316714B6229E4419 /* Pods-AHFMDownloadCenterServices_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AHFMDownloadCenterServices_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AHFMDownloadCenterServices_Tests/Pods-AHFMDownloadCenterServices_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AHFMDownloadCenterServices_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		65B23532E19EF4C54D5E6BD65244C3AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61832D38001788394C574CE0247EEB69 /* Pods-AHFMDownloadCenterServices_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AHFMDownloadCenterServices_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AHFMDownloadCenterServices_Tests/Pods-AHFMDownloadCenterServices_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AHFMDownloadCenterServices_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		665FF4D37F8481E4BEF26D2F0E51CAEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C840788DAEB9C3E1BDD26257E6ADDA9 /* AHFMServices.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AHFMServices/AHFMServices-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AHFMServices/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AHFMServices/AHFMServices.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AHFMServices;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C6C3CFE309840C9356CE38E4B2B3B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F89042B800076DA6D0A4A8FBA0948D1 /* Pods-AHFMDownloadCenterServices_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AHFMDownloadCenterServices_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AHFMDownloadCenterServices_Example/Pods-AHFMDownloadCenterServices_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AHFMDownloadCenterServices_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7CAF6A5AE3F000227CBEB794B00155B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C840788DAEB9C3E1BDD26257E6ADDA9 /* AHFMServices.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AHFMServices/AHFMServices-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AHFMServices/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AHFMServices/AHFMServices.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AHFMServices;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		957609282535C7820B3253C97588DF80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAEAC41CE535FAB9111B3DE64794578E /* AHFMDownloadCenterServices.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AHFMDownloadCenterServices/AHFMDownloadCenterServices-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AHFMDownloadCenterServices/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AHFMDownloadCenterServices/AHFMDownloadCenterServices.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AHFMDownloadCenterServices;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9F66FB9C0193000BD90FE72F9AF3F613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAEAC41CE535FAB9111B3DE64794578E /* AHFMDownloadCenterServices.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AHFMDownloadCenterServices/AHFMDownloadCenterServices-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AHFMDownloadCenterServices/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AHFMDownloadCenterServices/AHFMDownloadCenterServices.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AHFMDownloadCenterServices;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A86E14E871C5B620DD6625B502B6140D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07DF46D30F424F569255B2D1703D1032 /* Pods-AHFMDownloadCenterServices_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AHFMDownloadCenterServices_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AHFMDownloadCenterServices_Example/Pods-AHFMDownloadCenterServices_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AHFMDownloadCenterServices_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB1DE233F633C51941E423E02CF0131 /* Build configuration list for PBXNativeTarget "AHFMServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665FF4D37F8481E4BEF26D2F0E51CAEF /* Debug */,
+				7CAF6A5AE3F000227CBEB794B00155B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5419EE4F5183C1EFB62850B040ABB234 /* Build configuration list for PBXNativeTarget "AHFMDownloadCenterServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				957609282535C7820B3253C97588DF80 /* Debug */,
+				9F66FB9C0193000BD90FE72F9AF3F613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67C28E3C65CB46A470CB9F1C2CF0A658 /* Build configuration list for PBXNativeTarget "Pods-AHFMDownloadCenterServices_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B0693F4C937CBC44549D68BCAA91CA /* Debug */,
+				65B23532E19EF4C54D5E6BD65244C3AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A377AB3BCC1AEF60D8B33A0A43523A6E /* Build configuration list for PBXNativeTarget "Pods-AHFMDownloadCenterServices_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C6C3CFE309840C9356CE38E4B2B3B63 /* Debug */,
+				A86E14E871C5B620DD6625B502B6140D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

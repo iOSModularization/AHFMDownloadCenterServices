@@ -1,0 +1,19 @@
+PODS:
+  - AHFMDownloadCenterServices (0.1.0):
+    - AHFMServices
+  - AHFMServices (0.3.0)
+
+DEPENDENCIES:
+  - AHFMDownloadCenterServices (from `../`)
+
+EXTERNAL SOURCES:
+  AHFMDownloadCenterServices:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AHFMDownloadCenterServices: 855dcbba61b09f9792bbab984e935d66de14cce6
+  AHFMServices: 7c2c52fd7bd0b604fdab05cc9adb13129c218b60
+
+PODFILE CHECKSUM: ca804605024fc6d3ec8812db5413c36afe3d04a8
+
+COCOAPODS: 1.3.0.beta.2
